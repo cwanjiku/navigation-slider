@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hppavillion11.navigation_slider">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/product_24dp"
+        android:label="Amazing App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Amazing App"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".product" />
+        <activity android:name=".service" />
+        <activity android:name=".Pictures" />
+        <activity android:name=".Help" />
+        <activity android:name=".Tell_a_friend" />
+        <activity android:name=".Download"></activity>
+    </application>
+
+</manifest>
